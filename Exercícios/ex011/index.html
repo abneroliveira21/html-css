@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML5</title>
+</head>
+<body>
+    <h1>Imagen Dinâmina</h1>
+    <p>Tente abri em dispositivos diferentes ou aumente e duminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="fotos.png/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="fotos.png/foto-g.png" type="image/png">
+        <img src="fotos.png/foto-m.png" alt="imagen grande">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" controls none loop>
+        <source src="audios/happy-mistake.mp3" type="audio/mpeg">
+        <source src="audios/happy-mistake.ogg" type="audio/ogg">
+        <source src="audios/happy-mistake.wav" type="audio/wav">
+    </audio><br>
+    <audio preload="metadata" controls none loop>
+        <source src="audios/guanacast-33.mp3" type="audio/mpeg">
+        <source src="audios/guanacast-33.ogg" type="audio/ogg">
+        <source src="audios/guanacast-33.wav" type="audio/wav">
+    </audio>
+    <p>Descupe mas seu navegador não suporta esse áudio,clique <a href="audios/happy-mistake.mp3" >aqui para baixar o áudio 01</a> e <a href="audios/guanacast-33.mp3" >aqui para o áudio 02</a></p>
+</body>
+</html>

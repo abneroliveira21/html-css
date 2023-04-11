@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            background-color: #E64EE6;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1{
+            font-size: 2.1em;
+            color:#0daf97;
+            padding: 10px;
+        }
+
+        #cabeçalho{
+            background-color: #E6CA65;
+            text-align: center;
+            box-shadow: 8px 10px 15px rgba(0, 0, 0, 0.404);
+            border-radius: 10px 0px;
+        }
+        #conteúdo{
+            background-color: #E6CA65;
+            box-shadow: 8px 10px 15px rgba(0, 0, 0, 0.404);
+            border-radius: 10px 0px;
+        }
+        #subtitulo{
+            text-align: center;
+            font-size: 18px;
+        }
+        p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #subartigo{
+            background-color: #992599;
+            color: #E6CA65;
+            box-shadow: 8px -3px 15px rgba(0, 0, 0, 0.267);
+            border-radius: 10px 0px;
+        }
+        #artigo{
+             color: #992599;
+        }
+        #rodapé{
+            color: #0ff5d2;
+            background-color: #2C9989;
+            text-align: center;
+            margin: 0px;
+        }
+        nav{
+            color: #992599;
+            background-color:#0daf97;
+           
+        }
+        nav>a{
+          padding: 12px;
+          text-decoration: none;
+          color: #992599;
+        }
+        nav>a:hover{
+            color: #E64EE6;
+            text-decoration: underline;
+        }
+        #nav{
+            text-align: left;
+        }
+        .bola{
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            background-color: #2C9989;
+        }
+    </style>
+</head>
+<body>
+    <header id="cabeçalho">
+        <h1>Sub-site</h1>
+        <nav id="nav">
+            <a href="#">link</a><a href="#">link</a><a href="#">link</a><a href="#">link</a><a href="#">link</a>
+        </nav>
+    </header>
+
+    <main id="principal">
+        <section id="conteúdo">
+          <article id="artigo">
+                <h2 id="subtitulo">Artigo01</h2>
+                <h2 id="subtitulo">Sei e não sei</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptate illo praesentium quas assumenda amet minima sint consequuntur, incidunt nisi est cupiditate corrupti quod sapiente quis modi molestiae fugiat fuga.</p>
+                <p>Beatae perspiciatis, earum modi illo voluptatem voluptatibus, nesciunt aliquid aut facere, optio quo suscipit atque debitis corporis autem odio doloremque consequuntur fugiat neque veritatis officia aperiam vitae accusantium recusandae. Corrupti?</p>
+
+                <aside id="subartigo">
+                    <p>Feito por Juramento</p>
+                </aside>
+            </article>
+        </section>
+
+        <section id="conteúdo">
+            <article id="artigo">
+                <h2 id="subtitulo">Artigo02</h2>
+                <h2 id="subtitulo">Sabo e sabo mais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fuga nulla nam. Id, iste eum nisi nesciunt quos saepe? Consequatur sequi exercitationem perferendis illo. Suscipit corporis magnam quidem a obcaecati.</p>
+                <p>Laudantium minima officiis natus molestias officia, dolore illum delectus dolorum adipisci magnam? Eligendi, inventore nihil debitis repellat nostrum, saepe maxime quaerat accusantium aperiam non soluta illo distinctio dolore fuga similique.</p>
+                <p>Et, quam obcaecati tempora cupiditate veritatis sit porro minima odio a in eius atque exercitationem possimus corrupti dignissimos nemo ex temporibus dolorem repellendus? Doloribus ad sint deserunt, tenetur delectus quibusdam?</p>
+                <aside id="subartigo">
+                    <p>Fonte desconhecida</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer id="rodapé">
+        <p>Criado e feito por Arievilo</p>
+    </footer>
+<div class="bola"></div>
+</body>
+</html>
