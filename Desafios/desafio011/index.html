@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epaço</title>
+    <link rel="shortcut icon" href="imagen/lua03.png" type="image/x-icon">
+    <style>
+        body{
+            height: 100vh;
+            background: black url(imagen/espaco.jpg) center center no-repeat scroll;
+            background-size: cover;
+        }
+
+        #astronauta{
+            background-image: url(imagen/astronauta.png);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+
+            position: absolute;
+            height: 400px;
+            width: 350px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+
+        }
+    </style>
+</head>
+<body>
+    <main id="centro">
+        <div id="astronauta"></div>
+    </main>
+</body>
+</html>
