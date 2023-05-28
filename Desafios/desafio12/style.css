@@ -38,22 +38,22 @@ header{
     box-shadow: 2px 0px 20px black;
 }
 
-header a{
+a{
     color: white;
     text-decoration: none; 
 }
 
-a :hover{
+a:hover{
 text-decoration:underline;
 }
 
-main ul{
+section p{
 font-family: var(--font-texto);
 }
 
-ul li{
+p{
 font-size: 1.3em;
-padding-left: 15px;
+padding-left: 10px;
 }
 
 #joaninha{
