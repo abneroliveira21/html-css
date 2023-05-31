@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: 'titulo';
-    src: url('../estilos/fontes/PassionOne-Regular.ttf')
+    src: url('fontes/PassionOne-Bold.ttf')
     format('opentype');
     font-weight:normal ;
 }
 
 @font-face {
     font-family: 'texto';
-    src: url('../estilos/fontes/Sriracha-Regular.ttf')
+    src: url('fontes/Sriracha-Regular.ttf')
     format('opentype');
     font-weight: normal;
 }
