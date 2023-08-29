@@ -13,37 +13,37 @@
     <form action="cadastro.php" method="post" autocomplete="on">
 
         <p>
-            <label for="iest">Estado</label>
-            <section name="estado" id="iest">
-
+            <label for="iest">Estado: </label>
+            <select name="estado" id="iest">
                 <option value="" selected>--Escolha--</option>
-                <optgroup label="Regiao Sudeste">
+                <optgroup label="Região Sudeste">
                     <option value="MG">Minas Gerais</option>
-                    <option value="SP">Sao Paulo</option>
+                    <option value="SP">São Paulo</option>
                     <option value="RJ">Rio De Janeiro</option>
-                    <option value="ES">Espirito Santo</option>
+                    <option value="ES">Espírito Santo</option>
                 </optgroup>
-
-                <optgroup label="Regiao Sul">
+                <optgroup label="Região Sul">
                     <option value="SC">Santa Catarina</option>
-                    <option value="PR">Parana</option>
+                    <option value="PR">Paraná</option>
                     <option value="RS">Rio Grande Do Sul</option>
                 </optgroup>
-            </section>
+            </select>
         </p>
 
         <p>
-            <label for="iprof">Profissao</label>
+            <label for="iprof">Profissão: </label> 
             <input type="text" name="prof" id="iprof" list="lstprof">
             <datalist id="lstprof">
                 <option value="ADM">Adimistrador</option>
                 <option value="CONT">Contador</option>
                 <option value="DEV">Desenvolvedor</option>
-                <option value=""></option>
+                <option value="PROF">Professor</option>
+            </datalist>
         </p>
 
         <p>
-
+            <label for="imsg">Menssagen: </label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="30"></textarea>
         </p>
 
         <p>
